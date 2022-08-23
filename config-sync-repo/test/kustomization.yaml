@@ -2,7 +2,7 @@ nameSuffix: "-backend"
 commonLabels:
   app: whereami-backend
 bases:
-- ../app/base
+- ../base
 patches:
 - cm-flag.yaml
 - service-type.yaml
