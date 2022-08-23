@@ -1,3 +1,4 @@
 resources:
 - test
 - clusterregistry/selector-prod.yaml
+- clusterregistry/cluster.yaml
