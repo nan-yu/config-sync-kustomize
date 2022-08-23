@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: whereami-configmap
+  annotations:
+    configmanagement.gke.io/cluster-selector: selector-prod
+data:
+  BACKEND_ENABLED: "False" # assuming you don't want a chain of backend calls
+  METADATA:        "backend"

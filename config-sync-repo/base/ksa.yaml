@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: whereami-ksa
+  annotations:
+    configmanagement.gke.io/cluster-selector: selector-prod
+
